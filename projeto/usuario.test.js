@@ -1,4 +1,5 @@
-import { Usuario } from "./Usuario.js"
+//import { Usuario } from "./Usuario.js"
+const { Usuario } = require("./Usuario")
 
 
 describe("Teste da Classe Usuário", ()=>{
@@ -13,11 +14,15 @@ describe("Teste da Classe Usuário", ()=>{
     })
 
     test("Cadastrar Usuário com dados Válidos", ()=>{
-        expect(usuario.registrar("Maria", "13987689945", "email@email.com")).toBe("Usuário cadastrado")
+        expect(usuario.registrarUsuario("Maria", "13987689945", "maria@email.com")).toBe("Usuário Cadastrado")
     })
 
-    test("Retorna erro ao cadastrar usuário com dados inválidos", ()=>{
-        expect(()=> usuario.registrar("Maria", "abcder", "email@email.com")).toThrow("Erro no cadastro, dados inválidos")
+    test("Retorna Erro ao tentar cadastrar usuário com telefone inválido", ()=> {
+        expect(()=> usuario.registrarUsuario("Maria", "dvfgdds14", "email@email.com")).toThrow("Telefone inválido") 
     })
 
+    test("Lançar erro ao cadastrar Usuário com email inválido", () => {
+        expect(() => usuario.registrarUsuario("João", "123456789", "154556")).toThrow("Email inválido");
+    });
+  
 })
