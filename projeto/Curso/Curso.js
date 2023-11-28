@@ -9,7 +9,7 @@ class Curso {
     this.nome = nome;
     this.cargaHoraria = cargaHoraria;
     this.qtdVagas = qtdVagas;
-    this.listaProfessores = [];
+    this.professoresDoCurso = [];
     this.qtdAlunosPorCurso.push({
       nome: this.nome,
       qtdAlunos: 0,

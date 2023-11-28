@@ -16,7 +16,7 @@ class Aluno extends Usuario {
     return this.#cpf;
   }
 
-  addCurso(curso) {
+  matricularAluno(curso) {
     if (!(curso instanceof Curso)) throw new Error("Curso inválido.");
 
     if (this.listaDeCursos.includes(curso))
@@ -28,12 +28,12 @@ class Aluno extends Usuario {
     this.listaDeCursos.push(curso);
     curso.qtdVagas--;
 
-    Aluno.somarAlunosPorCurso(curso);
+    Aluno.incrementarAlunoPorCurso(curso);
 
     return this.listaDeCursos;
   }
 
-  removeCurso(curso) {
+  removerAluno(curso) {
     if (!(curso instanceof Curso)) throw new Error("Curso inválido.");
 
     const cursoIndex = this.listaDeCursos.indexOf(curso);
@@ -45,7 +45,7 @@ class Aluno extends Usuario {
     );
     curso.qtdVagas++;
 
-    Aluno.diminuirAlunosPorCurso(curso);
+    Aluno.decrementarAlunoPorCurso(curso);
     return this.listaDeCursos;
   }
 
@@ -60,7 +60,7 @@ class Aluno extends Usuario {
     return totalFaltasDoAluno;
   }
 
-  static somarAlunosPorCurso(curso) {
+  static incrementarAlunoPorCurso(curso) {
     const cursoEncontrado = curso.qtdAlunosPorCurso.find(
       (cursoInfo) => cursoInfo.nome === curso.nome
     );
@@ -68,7 +68,7 @@ class Aluno extends Usuario {
     if (cursoEncontrado) cursoEncontrado.qtdAlunos++;
   }
 
-  static diminuirAlunosPorCurso(curso) {
+  static decrementarAlunoPorCurso(curso) {
     const cursoEncontrado = curso.qtdAlunosPorCurso.find(
       (cursoInfo) => cursoInfo.nome === curso.nome
     );
