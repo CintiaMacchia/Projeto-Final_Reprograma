@@ -1,3 +1,4 @@
+const Curso = require("../Curso/Curso.js");
 const Usuario = require("../Usuario/Usuario.js");
 
 class Aluno extends Usuario {
@@ -8,43 +9,72 @@ class Aluno extends Usuario {
     super.registrarUsuario(nome, telefone, email, cpf, matricula);
     this.#cpf = cpf;
     this.matricula = matricula;
-    this.cursosMatriculados = [];
+    this.listaDeCursos = [];
   }
 
-  addCurso(nomeDoCurso) {
-    return this.cursosMatriculados.push(nomeDoCurso);
+  get cpf() {
+    return this.#cpf;
   }
 
-  removeCurso(nomeDoCurso) {
-    this.cursosMatriculados = this.cursosMatriculados.filter(
-      (curso) => curso !== nomeDoCurso
+  addCurso(curso) {
+    if (!(curso instanceof Curso)) throw new Error("Curso inválido.");
+
+    if (this.listaDeCursos.includes(curso))
+      throw new Error("Curso já cadastrado!");
+
+    if (curso.qtdVagas <= 0)
+      throw new Error("Não há vagas disponíveis para este curso!");
+
+    this.listaDeCursos.push(curso);
+    curso.qtdVagas--;
+
+    Aluno.somarAlunosPorCurso(curso);
+
+    return this.listaDeCursos;
+  }
+
+  removeCurso(curso) {
+    if (!(curso instanceof Curso)) throw new Error("Curso inválido.");
+
+    const cursoIndex = this.listaDeCursos.indexOf(curso);
+    if (cursoIndex === -1)
+      throw new Error("O aluno não está matriculado neste curso!");
+
+    this.listaDeCursos = this.listaDeCursos.filter(
+      (cursoInfo) => cursoInfo !== curso
     );
+    curso.qtdVagas++;
 
-    return this.cursosMatriculados;
+    Aluno.diminuirAlunosPorCurso(curso);
+    return this.listaDeCursos;
   }
 
   calcularFaltas(totalHorasCurso, totalFaltas) {
     const limiteFaltas = totalHorasCurso * 0.75;
 
     if (totalFaltas > limiteFaltas)
-      throw new Error("Aluno reprovado por ter faltas superior a 75% do curso");
+      throw new Error(
+        "Aluno reprovado por quantidade de faltas superior a 75% da carga horário do curso."
+      );
 
-    return "Aluno aprovado";
+    return "Aluno aprovado.";
+  }
+
+  static somarAlunosPorCurso(curso) {
+    const cursoEncontrado = curso.qtdAlunosPorCurso.find(
+      (cursoInfo) => cursoInfo.nome === curso.nome
+    );
+
+    if (cursoEncontrado) cursoEncontrado.qtdAlunos++;
+  }
+
+  static diminuirAlunosPorCurso(curso) {
+    const cursoEncontrado = curso.qtdAlunosPorCurso.find(
+      (cursoInfo) => cursoInfo.nome === curso.nome
+    );
+
+    if (cursoEncontrado) cursoEncontrado.qtdAlunos--;
   }
 }
 
-const aluno1 = new Aluno();
-
-aluno1.registrarUsuario(
-  "João",
-  "13987689945",
-  "joao@email.com",
-  "08575698455",
-  "001"
-);
-
-aluno1.addCurso("Frontend");
-aluno1.addCurso("Backend");
-aluno1.removeCurso("Frontend");
-
-console.log(aluno1);
+module.exports = Aluno;
