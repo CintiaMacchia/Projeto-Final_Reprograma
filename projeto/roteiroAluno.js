@@ -38,9 +38,11 @@ aluno1.addCurso(curso2);
 aluno2.addCurso(curso1);
 
 //Removendo aluno de curso
-
 aluno1.removeCurso(curso2);
 // aluno2.removeCurso(curso2);
+
+//Calcular faltas
+console.log(aluno1.calcularFaltas(100, 76));
 
 console.log(curso1.qtdAlunosPorCurso);
 console.log(curso2.qtdAlunosPorCurso);

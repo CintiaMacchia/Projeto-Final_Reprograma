@@ -52,12 +52,12 @@ class Aluno extends Usuario {
   calcularFaltas(totalHorasCurso, totalFaltas) {
     const limiteFaltas = totalHorasCurso * 0.75;
 
-    if (totalFaltas > limiteFaltas)
-      throw new Error(
-        "Aluno reprovado por quantidade de faltas superior a 75% da carga horário do curso."
-      );
+    const totalFaltasDoAluno =
+      totalFaltas > limiteFaltas
+        ? "O total de faltas do aluno excede 75% do total de horas do curso)."
+        : "O total de faltas do aluno não excede 75% do total de horas do curso).";
 
-    return "Aluno aprovado.";
+    return totalFaltasDoAluno;
   }
 
   static somarAlunosPorCurso(curso) {
