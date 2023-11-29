@@ -1,3 +1,3 @@
-## Woman Tech 40+
+## Women Tech 40+
 
-Promovendo equidade e educação para mulheres com mais de 40 anos.
+Promovendo equidade e educação para mulheres com mais de 40.

@@ -1,27 +1,30 @@
-const Curso = require("./Curso/Curso");
-const Aluno = require("./Aluno/Aluno");
+const Curso = require("./Curso/Curso.js");
+const Aluno = require("./Usuario/Aluno/Aluno.js");
+const Professor = require("./Usuario/Professor/Professor.js");
 
-//Intanciação dos cursos
-const curso1 = new Curso();
-const curso2 = new Curso();
-const curso3 = new Curso();
+//instanciação de curso
+const cursoFront = new Curso();
+const cursoBack = new Curso();
 
-//Instanciação dos alunos
+//instanciação de alunos
 const aluno1 = new Aluno();
 const aluno2 = new Aluno();
 
-//Criação dos cursos
-curso1.cadastrarCurso("Frontend", 100, 40);
-curso2.cadastrarCurso("Backend", 120, 30);
-curso3.cadastrarCurso("Fake", 100, 10);
+//instanciação de professor
+const professor1 = new Professor();
+const professor2 = new Professor();
 
-//Registrando alunos
+//cadastrar curso
+cursoFront.cadastrarCurso("Frontend", 100, 40);
+cursoBack.cadastrarCurso("Backend", 120, 30);
+
+//registrar usuário
 aluno1.registrarUsuario(
   "João",
   "13987689945",
   "joao@email.com",
   "08575698455",
-  "001"
+  "a001"
 );
 
 aluno2.registrarUsuario(
@@ -29,23 +32,47 @@ aluno2.registrarUsuario(
   "21987689945",
   "maria@email.com",
   "08575698456",
-  "002"
+  "a002"
 );
 
-//Matriculando alunos nos cursos
-aluno1.matricularAluno(curso1);
-aluno1.matricularAluno(curso2);
-aluno2.matricularAluno(curso1);
+//registrar professor
+professor1.registrarUsuario(
+  "Analu",
+  "11987689945",
+  "analu@reprograma.com",
+  "79142232040",
+  "p001"
+);
 
-//Removendo aluno de curso
-aluno1.removerAluno(curso2);
-// aluno2.removeCurso(curso2);
+professor2.registrarUsuario(
+  "Lua",
+  "27987689914",
+  "luara@reprograma.com",
+  "50230281001",
+  "p002"
+);
 
-//Calcular faltas
-console.log(aluno1.calcularFaltas(100, 76));
+cursoBack.adicionarProfessor(professor1, "Backend");
+cursoBack.adicionarProfessor(professor2, "Backend");
+cursoFront.adicionarProfessor(professor2, "Frontend");
+cursoBack.removerProfessor(professor2, "Backend");
 
-console.log(curso1);
-console.log(curso2);
+cursoFront.matricularAluno(aluno1, "Frontend");
+cursoBack.matricularAluno(aluno1, "Backend");
+cursoFront.matricularAluno(aluno2, "Frontend");
+cursoBack.matricularAluno(aluno2, "Backend");
+// cursoBack.matricularAluno(aluno2, "Backend");
+cursoBack.removerAluno(aluno2, "Backend");
+
+console.log(cursoBack.calcularFaltas(aluno2, 100, 76));
 
 console.log(aluno1);
 console.log(aluno2);
+console.log("*********************************");
+
+console.log(professor1);
+console.log(professor2);
+console.log("*********************************");
+
+console.log(cursoFront);
+console.log(cursoBack);
