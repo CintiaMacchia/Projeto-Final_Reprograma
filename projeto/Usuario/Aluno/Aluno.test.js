@@ -16,6 +16,4 @@ describe("Teste da Classe Professor", ()=>{
         expect(aluno.registrarUsuario("Sofia", "13987689945", "sofia@email.com", "92248415036", "b0002")).toBe("Aluno cadastrado")
     })
 
-
-
 })
