@@ -3,7 +3,7 @@ class Usuario {
   #telefone;
   #email;
 
-  registrarUsuario(nome, telefone, email) {
+  cadastrarUsuario(nome, telefone, email) {
     this.nome = nome;
     this.#telefone = telefone;
     this.#email = email;

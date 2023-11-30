@@ -4,8 +4,8 @@ class Professor extends Usuario {
   #cpf;
   matricula;
 
-  registrarUsuario(nome, telefone, email, cpf, matricula) {
-    super.registrarUsuario(nome, telefone, email, cpf, matricula);
+  cadastrarUsuario(nome, telefone, email, cpf, matricula) {
+    super.cadastrarUsuario(nome, telefone, email);
     this.#cpf = cpf;
     this.matricula = matricula;
     this.listaDeCursosMinistrados = [];

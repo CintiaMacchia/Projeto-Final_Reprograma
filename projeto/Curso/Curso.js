@@ -1,18 +1,25 @@
 const Aluno = require("../Usuario/Aluno/Aluno.js");
+const Empresa = require("../Usuario/Empresa/Empresa.js");
 const Professor = require("../Usuario/Professor/Professor.js");
 
 class Curso {
   nomeCurso;
   cargaHoraria;
-  qtdVagas;
+  qtdVagasDisponiveis;
 
-  cadastrarCurso(nomeCurso, cargaHoraria, qtdVagas) {
+  cadastrarCurso(nomeCurso, cargaHoraria, qtdVagasDisponiveis) {
     this.nomeCurso = nomeCurso;
     this.cargaHoraria = cargaHoraria;
-    this.qtdVagas = qtdVagas;
+    this.qtdVagasDisponiveis = qtdVagasDisponiveis;
     this.professoresDoCurso = [];
     this.empresaPatrocinadora = [];
     this.qtdAlunos = 0;
+
+    if (cargaHoraria <= 0) throw new Error("Valor inválido.");
+
+    if (qtdVagasDisponiveis <= 0) throw new Error("Valor inválido.");
+
+    return "Curso cadastrado com sucesso.";
   }
 
   matricularAluno(aluno, nomeCurso) {
@@ -21,11 +28,11 @@ class Curso {
     if (aluno.listaDeCursosMatriculados.includes(nomeCurso))
       throw new Error("Curso já cadastrado!");
 
-    if (this.qtdVagas <= 0)
+    if (this.qtdVagasDisponiveis <= 0)
       throw new Error("Não há vagas disponíveis para este curso!");
 
     aluno.listaDeCursosMatriculados.push(nomeCurso);
-    this.qtdVagas--;
+    this.qtdVagasDisponiveis--;
     this.qtdAlunos++;
   }
 
@@ -39,12 +46,12 @@ class Curso {
     aluno.listaDeCursosMatriculados = aluno.listaDeCursosMatriculados.filter(
       (cursoInfo) => cursoInfo !== nomeCurso
     );
-    this.qtdVagas++;
+    this.qtdVagasDisponiveis++;
     this.qtdAlunos--;
   }
 
-  calcularFaltas(aluno, totalHorasCurso, totalFaltas) {
-    const limiteFaltas = totalHorasCurso * 0.75;
+  calcularFaltas(aluno, totalFaltas) {
+    const limiteFaltas = this.cargaHoraria * 0.75;
 
     const totalFaltasDoAluno =
       totalFaltas > limiteFaltas
@@ -77,6 +84,16 @@ class Curso {
     this.professoresDoCurso = this.professoresDoCurso.filter(
       (profInfo) => profInfo !== professor.nome
     );
+  }
+
+  adicionarPatrocinador(empresa, nomeCurso) {
+    if (!(empresa instanceof Empresa)) throw new Error("Empresa inválida.");
+
+    if (empresa.listaCursoPatrocinado.includes(nomeCurso))
+      throw new Error("Empresa já cadastrada!");
+
+    empresa.listaCursoPatrocinado.push(nomeCurso);
+    this.empresaPatrocinadora.push(empresa.nome);
   }
 }
 
