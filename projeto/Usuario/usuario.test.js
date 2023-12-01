@@ -24,5 +24,7 @@ describe("Teste da Classe Usuário", ()=>{
     test("Lançar erro ao cadastrar Usuário com email inválido", () => {
         expect(() => usuario.cadastrarUsuario("João", "123456789", "154556")).toThrow("Email inválido");
     });
+
+    
   
 })
