@@ -1,3 +1,6 @@
+![Imagem do WhatsApp de 2023-12-02 à(s) 14 57 05_f78abee6](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/6cf1a3de-d6f5-4150-9576-26d881c1bd82)
+
+
 ## Classes
 
 ### 1. Usuário
