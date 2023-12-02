@@ -9,7 +9,7 @@
 
 ### Equipe:
 - [Verônica Paranhos](https://github.com/veronicaparanhos)
-- [Cintia Macchia] (https://github.com/CintiaMacchia)
+- [Cintia Macchia](https://github.com/CintiaMacchia)
 
 
 
