@@ -45,6 +45,12 @@ Nosso projeto busca solucionar desafios prementes relacionados à lacuna de gên
 **ODS 17 – Parcerias e Meios de Implementação:**
 	Buscamos parcerias com organizações, empresas e instituições para fortalecer e expandir o impacto de projeto, alinhando-se com o princípio de parceria e colaboração da Agenda ODS 2030. 
 
+### Resolução com código: 
+Na busca por soluções efetivas para o desafio em questão, reconhecemos que a tecnologia desempenha um papel central na criação de impacto positivo. A concepção de uma plataforma online dedicada a fornecer cursos de tecnologia para mulheres com mais de 40 anos não apenas enfrenta as barreiras identificadas, mas também representa uma abordagem inovadora para capacitar e incluir esse grupo demográfico no setor tecnológico.
+A implementação de um sistema baseado em código permitirá o desenvolvimento de uma interface intuitiva e personalizada, adaptada às necessidades específicas das participantes. A plataforma pode oferecer cursos interativos, abordando temas relevantes e incentivando a aprendizagem prática. A acessibilidade remota proporcionará flexibilidade, permitindo que as mulheres aprendam no conforto de seus próprios ambientes e no horário que melhor se adequar às suas necessidades.
+Além disso, a integração de ferramentas de mentoramento virtual e networking facilitará a criação de uma comunidade online de apoio, conectando as participantes a profissionais experientes no campo. Essa rede virtual não apenas oferecerá orientação, mas também abrirá portas para oportunidades de mentoria e colaboração. 
+A resolução com código não apenas endereça os obstáculos mencionados, mas representa um passo significativo em direção à construção de um ecossistema tecnológico inclusivo. Ao capacitar mulheres com mais de 40 anos com habilidades tecnológicas, estamos não apenas superando desafios profissionais, mas também contribuindo para a criação de um ambiente mais diversificado e enriquecedor no setor tecnológico. 
+
 
 
 ## Classes
