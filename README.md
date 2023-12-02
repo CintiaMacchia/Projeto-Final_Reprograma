@@ -9,9 +9,9 @@
 - [Cintia Macchia](https://github.com/CintiaMacchia)
 
 ### Problema:
-<p>
-	Diante de desafios marcantes, a presença de lacunas de gênero e o impacto do etarismo feminino no setor tecnológico são questões cruciais a serem abordadas. No âmbito profissional, as mulheres com mais de 40 anos enfrentam dificuldades significativas, seja na recolocação no mercado de trabalho ou na realização de transições de carreira.</br> Essa realidade ressalta a importância de iniciativas que não apenas abordem a desigualdade de gênero, mas também ofereçam soluções tangíveis para empoderar economicamente as mulheres nessa faixa etária. Ao enfrentar esses problemas de maneira integrada, é possível construir caminhos mais inclusivos e proporcionar oportunidades de desenvolvimento que catalisem o potencial profissional das mulheres, promovendo, assim, uma transformação positiva no panorama laboral.
-</p>
+
+Diante de desafios marcantes, a presença de lacunas de gênero e o impacto do etarismo feminino no setor tecnológico são questões cruciais a serem abordadas. No âmbito profissional, as mulheres com mais de 40 anos enfrentam dificuldades significativas, seja na recolocação no mercado de trabalho ou na realização de transições de carreira.</br> Essa realidade ressalta a importância de iniciativas que não apenas abordem a desigualdade de gênero, mas também ofereçam soluções tangíveis para empoderar economicamente as mulheres nessa faixa etária. Ao enfrentar esses problemas de maneira integrada, é possível construir caminhos mais inclusivos e proporcionar oportunidades de desenvolvimento que catalisem o potencial profissional das mulheres, promovendo, assim, uma transformação positiva no panorama laboral.
+
 
 
 ### Objetivo Principal:
