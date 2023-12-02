@@ -3,9 +3,7 @@
 </p>
 
 <p align = "center">
-
- ![image](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/dd42a1cf-afcb-4217-82ad-a85aa388f922)
-
+< ![image](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/dd42a1cf-afcb-4217-82ad-a85aa388f922) width= "50%">
 </p>
 
 ## Classes
