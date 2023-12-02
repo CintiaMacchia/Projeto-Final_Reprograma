@@ -51,7 +51,7 @@ A implementação de um sistema baseado em código permitirá o desenvolvimento 
 Além disso, a integração de ferramentas de mentoramento virtual e networking facilitará a criação de uma comunidade online de apoio, conectando as participantes a profissionais experientes no campo. Essa rede virtual não apenas oferecerá orientação, mas também abrirá portas para oportunidades de mentoria e colaboração. 
 A resolução com código não apenas endereça os obstáculos mencionados, mas representa um passo significativo em direção à construção de um ecossistema tecnológico inclusivo. Ao capacitar mulheres com mais de 40 anos com habilidades tecnológicas, estamos não apenas superando desafios profissionais, mas também contribuindo para a criação de um ambiente mais diversificado e enriquecedor no setor tecnológico. 
 
-
+ <h1 align="center"> Implementações do Código </h1>
 
 ## Classes
 
@@ -124,3 +124,11 @@ A resolução com código não apenas endereça os obstáculos mencionados, mas 
 | `adicionarPatrocinador(empresa, nomeCurso)` | Adiciona a empresa patrocinadora ao curso                                      |
 | `apagarCurso()`                             | Apaga o curso da lista de cursos cadastrados                                   |
 | `mudarStatus()`                             | Altera o status do curso                                                       |
+
+### Tecnologias Utilizadas: 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="36" height="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NODEJS" width="36" height="36"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="JEST" width="36" height="36" />
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="GIT" width="36" height="36" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GITHUB" width="36" height="36" />
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="FIGMA" width="36" height="36"/>
