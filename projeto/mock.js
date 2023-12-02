@@ -103,3 +103,10 @@ console.log("*********************************");
 
 console.log(empresa1);
 console.log(empresa2);
+console.log("*********************************");
+
+console.log(Curso.listaCursosCadastrados);
+cursoBack.apagarCurso();
+
+cursoFront.mudarStatus("Em andamento");
+console.log(Curso.listaCursosCadastrados);

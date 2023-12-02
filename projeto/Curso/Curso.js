@@ -6,6 +6,7 @@ class Curso {
   nomeCurso;
   cargaHoraria;
   qtdVagasDisponiveis;
+  static listaCursosCadastrados = [];
 
   cadastrarCurso(nomeCurso, cargaHoraria, qtdVagasDisponiveis) {
     this.nomeCurso = nomeCurso;
@@ -14,12 +15,24 @@ class Curso {
     this.professoresDoCurso = [];
     this.empresaPatrocinadora = [];
     this.qtdAlunos = 0;
+    this.status = "Em planejamento";
+
+    Curso.listaCursosCadastrados.push(this);
 
     if (cargaHoraria <= 0) throw new Error("Valor inválido.");
 
     if (qtdVagasDisponiveis <= 0) throw new Error("Valor inválido.");
 
     return "Curso cadastrado com sucesso.";
+  }
+
+  apagarCurso() {
+    let i = Curso.listaCursosCadastrados.indexOf(this);
+    Curso.listaCursosCadastrados.splice(i, 1);
+  }
+
+  mudarStatus(novoStatus) {
+    this.status = novoStatus;
   }
 
   matricularAluno(aluno, nomeCurso) {
