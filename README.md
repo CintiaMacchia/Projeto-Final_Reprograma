@@ -2,9 +2,9 @@
  <img src = "https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/1d59c65c-1931-49ee-af98-4221cd09e8e4" width="50%">
 </p>
 
-<p align= "center" width="50%">
+
 ![womentech](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/7516d211-803b-4729-9332-02456e1e708e)
-</p>
+
 
 ## Classes
 
