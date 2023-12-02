@@ -1,6 +1,3 @@
-<p align="center">
-![womentech](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/7516d211-803b-4729-9332-02456e1e708e)
-</p>
 
 
 ![womentech](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/7516d211-803b-4729-9332-02456e1e708e)
@@ -22,7 +19,7 @@ O objetivo principal é estabelecer uma plataforma abrangente e eficaz para a fo
 Mulheres que buscam recolocação no mercado de trabalho e aquelas em processo de transição de carreira enfrentam barreiras consideráveis ao adentrar o setor tecnológico. Frequentemente, essas mulheres, com experiência profissional valiosa, deparam-se com obstáculos relacionados à lacuna de gênero e ao estigma associado ao etarismo. A necessidade de adaptar-se a novas tecnologias e normas do setor pode criar um cenário desafiador para quem procura oportunidades no mercado de trabalho. O enfrentamento dessas dificuldades exige não apenas a aquisição de novas habilidades, mas também o acesso a programas inclusivos que reconheçam e valorizem a experiência diversificada que essas mulheres trazem consigo. Portanto, ao direcionar nossos esforços para fornecer formação personalizada e suporte especializado, buscamos não apenas abordar os desafios específicos que essas mulheres enfrentam, mas também criar uma trajetória mais suave para sua inserção e sucesso no setor tecnológico.
 
 ### Como esse problema é resolvido hoje:
-Diversos programas, tanto no Brasil quanto internacionalmente, dedicam-se à formação de mulheres em tecnologia com o objetivo crucial de impulsionar a participação feminina nesse campo. Iniciativas como Women Who Code, Elas Programam, Mulheres na Tecnologia (MNT) e +Mulheres na Computação destacam-se nesse cenário, concentrando esforços para capacitar mulheres e promover a igualdade de gênero na área tecnológica. Essas iniciativas não apenas fornecem conhecimento técnico, mas também promovem uma rede de apoio e mentoria, essencial para enfrentar desafios específicos que mulheres possam encontrar no campo da tecnologia. Em conjunto, esses programas representam esforços coletivos para superar barreiras, construir igualdade e catalisar o potencial das mulheres no setor tecnológico. 
+Diversos programas, tanto no Brasil quanto internacionalmente, dedicam-se à formação de mulheres em tecnologia com o objetivo crucial de impulsionar a participação feminina nesse campo. Iniciativas como Women Who Code, Elas Programam, Mulheres na Tecnologia (MNT) e +Mulheres na Computação assim como a Reprograma destacam-se nesse cenário, concentrando esforços para capacitar mulheres e promover a igualdade de gênero na área tecnológica. Essas iniciativas não apenas fornecem conhecimento técnico, mas também promovem uma rede de apoio e mentoria, essencial para enfrentar desafios específicos que mulheres possam encontrar no campo da tecnologia. Em conjunto, esses programas representam esforços coletivos para superar barreiras, construir igualdade e catalisar o potencial das mulheres no setor tecnológico. 
 
 ### Relação com a Agenda ODS 2030:
 
