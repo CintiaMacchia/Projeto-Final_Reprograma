@@ -8,7 +8,8 @@
 **Descrição do Projeto:**  Projeto final Imersão JavaScript – Reprograma.
 
 **Equipe:**
-https://github.com/reprograma/on28-ijs-prototype2/issues?q=is%3Apr+is%3Aopen+author%3Averonicaparanhos
+- [Verônica Paranhos](https://github.com/veronicaparanhos)
+- [Cintia Macchia] (https://github.com/CintiaMacchia)
 
 
 
