@@ -32,6 +32,19 @@ Nosso projeto busca solucionar desafios prementes relacionados à lacuna de gên
 
 **ODS 4 – Educação de Qualidade:**
 	Contribui para a educação de qualidade ao oferecer cursos de tecnologia, promovendo aprendizagem ao longo da vida.
+ 
+**ODS 5 – Igualdade de Gênero:**
+	Fornecemos oportunidades educacionais em tecnologia especificamente para mulheres, contribuindo para reduzir a disparidade de gênero no setor.
+
+**ODS 8 – Trabalho Decente e Crescimento Econômico:**
+	Empoderamos mulheres com mais de 40 anos, proporcionando habilidades tecnológicas para aumentar suas oportunidades de emprego e contribuir para o crescimento econômico. 
+
+**ODS 10- Redução de Desigualdades:**
+	Contribuímos para a redução das desigualdades ao oferecer oportunidades educacionais em tecnologia para o grupo específico, mulheres com mais de 40 anos. 
+
+**ODS 17 – Parcerias e Meios de Implementação:**
+	Buscamos parcerias com organizações, empresas e instituições para fortalecer e expandir o impacto de projeto, alinhando-se com o princípio de parceria e colaboração da Agenda ODS 2030. 
+
 
 
 ## Classes
