@@ -126,9 +126,11 @@ A resolução com código não apenas endereça os obstáculos mencionados, mas 
 | `mudarStatus()`                             | Altera o status do curso                                                       |
 
 ### Tecnologias Utilizadas: 
+ ,div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="36" height="36" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NODEJS" width="36" height="36"/>
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="JEST" width="36" height="36" />
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="GIT" width="36" height="36" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GITHUB" width="36" height="36" />
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="FIGMA" width="36" height="36"/>
+</div>
