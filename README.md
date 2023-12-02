@@ -25,10 +25,13 @@ Mulheres que buscam recolocação no mercado de trabalho e aquelas em processo d
 Diversos programas, tanto no Brasil quanto internacionalmente, dedicam-se à formação de mulheres em tecnologia com o objetivo crucial de impulsionar a participação feminina nesse campo. Iniciativas como Women Who Code, Elas Programam, Mulheres na Tecnologia (MNT) e +Mulheres na Computação destacam-se nesse cenário, concentrando esforços para capacitar mulheres e promover a igualdade de gênero na área tecnológica. Essas iniciativas não apenas fornecem conhecimento técnico, mas também promovem uma rede de apoio e mentoria, essencial para enfrentar desafios específicos que mulheres possam encontrar no campo da tecnologia. Em conjunto, esses programas representam esforços coletivos para superar barreiras, construir igualdade e catalisar o potencial das mulheres no setor tecnológico. 
 
 ### Relação com a Agenda ODS 2030:
-<img src"https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/9c79a1c6-11dd-409c-9a6d-3f49e7c6f6fe"/>
 
 ![ods](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/47a93b22-fddd-423e-b3b7-69e42d4a7bdd)
 
+Nosso projeto busca solucionar desafios prementes relacionados à lacuna de gênero e ao etarismo feminino na esfera tecnológica. Ao alinhar nossos objetivos com os princípios dos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, visamos não apenas endereçar problemas locais, mas também contribuir para um impacto global mais amplo.
+
+**ODS 4 – Educação de Qualidade:**
+	Contribui para a educação de qualidade ao oferecer cursos de tecnologia, promovendo aprendizagem ao longo da vida.
 
 
 ## Classes
