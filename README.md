@@ -5,6 +5,12 @@
 
 ![womentech](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/7516d211-803b-4729-9332-02456e1e708e)
 
+**Descrição do Projeto:**  Projeto final Imersão JavaScript – Reprograma.
+
+**Equipe:**
+https://github.com/reprograma/on28-ijs-prototype2/issues?q=is%3Apr+is%3Aopen+author%3Averonicaparanhos
+
+
 
 ## Classes
 
