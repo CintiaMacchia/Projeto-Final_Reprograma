@@ -7,7 +7,7 @@
 
 **Descrição do Projeto:**  Projeto final Imersão JavaScript – Reprograma.
 
-**Equipe:**
+### Equipe:
 - [Verônica Paranhos](https://github.com/veronicaparanhos)
 - [Cintia Macchia] (https://github.com/CintiaMacchia)
 
