@@ -140,5 +140,10 @@ A resolução com código não apenas endereça os obstáculos mencionados, mas 
 
 </div>
 
+### Implementações Futuras: 
+À medida que avançamos com determinação em nosso projeto, vislumbramos implementações futuras que ampliarão significativamente o impacto e a sustentabilidade de nossas iniciativas. Estamos planejando estabelecer uma prática inovadora, solicitando que empresas que patrocinem cursos ofereçam, ao final do programa, uma porcentagem das vagas totais para serem preenchidas por nossas talentosas alunas. Essa medida não apenas reforça nosso compromisso com a transição efetiva para o mercado de trabalho, mas também estabelece uma ponte direta entre a formação oferecida e as oportunidades reais de emprego.
+Além disso, pretendemos criar um Banco de Talentos robusto, onde as alunas terão a oportunidade de registrar seus currículos e portfólios. Esse banco não apenas servirá como uma vitrine valiosa de habilidades, mas também permitirá que as empresas busquem candidatas com base em perfis específicos. 
+Faremos parcerias estratégicas para oferecer às empresas a oportunidade de anunciarem vagas diretamente em nossa plataforma, alinhadas exclusivamente aos talentos e competências das participantes. Essa colaboração inovadora visa não apenas facilitar a conexão entre talentos e oportunidades, mas também promover uma transição mais suave e eficiente para o mercado de trabalho tecnológico. Ao estabelecermos essas parcerias, criaremos um ambiente dinâmico em que as empresas podem encontrar profissionais qualificadas, e as alunas, por sua vez, terão acesso a oportunidades de emprego específicas para seu perfil.
+
 
  
