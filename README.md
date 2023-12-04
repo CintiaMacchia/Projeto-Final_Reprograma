@@ -1,5 +1,5 @@
 <h1 align="center">
- <img width="250" alt="logo40mais" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/7516d211-803b-4729-9332-02456e1e708e">
+ <img width="300" alt="logo40mais" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/7516d211-803b-4729-9332-02456e1e708e">
 </h1>
 
 
