@@ -1,10 +1,10 @@
 
-<div>
+
 
 <img src = "https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/7516d211-803b-4729-9332-02456e1e708e" alt="WomenTech40+" width="50%" />
 	
 
-</div>
+
 
 ### Equipe:
 - [Verônica Paranhos](https://github.com/veronicaparanhos)
