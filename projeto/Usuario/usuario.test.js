@@ -1,4 +1,4 @@
-//import { Usuario } from "./Usuario.js"
+
 const { Usuario } = require("./Usuario")
 
 
@@ -25,6 +25,25 @@ describe("Teste da Classe Usuário", ()=>{
         expect(() => usuario.cadastrarUsuario("João", "123456789", "154556")).toThrow("Email inválido");
     });
 
-    
-  
+    test("Retorna com sucesso o numero de telefone criado", () => {
+        usuario.cadastrarUsuario("João", "11987654321", "joao@email.com");
+        expect(usuario.telefone).toBe("11987654321");
+    });
+
+    test("Retorna com sucesso ao alterar numero de telefone", () => {
+        const novoTelefone = "11999995248";
+        usuario.telefone = novoTelefone;
+        expect(usuario.telefone).toBe(novoTelefone);
+    });
+
+    test("Retorna com sucesso o email criado", () => {
+        usuario.cadastrarUsuario("João", "11987654321", "joao@email.com");
+        expect(usuario.email).toBe("joao@email.com");
+    });
+
+    test("Retorna com sucesso ao alterar email", () => {
+        const novoEmail = "joao2@email.com";
+        usuario.email = novoEmail;
+        expect(usuario.email).toBe(novoEmail);
+    });
 })

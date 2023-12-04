@@ -17,7 +17,7 @@ class Aluno extends Usuario {
         throw new Error("CPF inválido");
       }
   
-      return "Aluno cadastrado";
+      return "Aluno cadastrado.";
     }
   
     get cpf() {

@@ -15,7 +15,7 @@ describe("Teste da classe Curso", ()=>{
      aluno = new Aluno()
      professor = new Professor()
      empresa = new Empresa()
-     curso.apagarListaDeCursos()
+     curso.apagarCurso()
     })
 
 
@@ -46,6 +46,11 @@ describe("Teste da classe Curso", ()=>{
 
     test("retorna erro ao tentar criar um curso com vaga igual a zero", ()=>{
         expect(() =>curso.cadastrarCurso("Front-end", -200, 0)).toThrow("Valor inválido.")
+    })
+
+    test("retorna novo status do curso", ()=>{
+        expect(curso.cadastrarCurso("Front-end", 200, 40)).toBe("Curso cadastrado com sucesso.")
+        expect(curso.mudarStatus(this.novoStatus)).toBe(this.novoStatus)
     })
 
     test("Retorna sucesso ao matricular aluno com dados válidos", () =>{

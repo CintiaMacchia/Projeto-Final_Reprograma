@@ -1,5 +1,5 @@
 const { Usuario } = require("../Usuario")
-const { Curso } = require("../../Curso/Curso")
+// const { Curso } = require("../../Curso/Curso")
 
 class Empresa extends Usuario{
     #cnpj
@@ -8,13 +8,12 @@ class Empresa extends Usuario{
         super.cadastrarUsuario(nome, telefone, email)
         this.#cnpj = cnpj
         this.listaCursoPatrocinado = []
-        
-
-        const regexCNPJ = /^\d{2}\.\d{3}\.\d{3}\/\d{4}-\d{2}$/;
+ 
+        const regexCNPJ = /^\d{2}(\.?\d{3}){2}\/?\d{4}-?\d{2}$/;
 
         if (!regexCNPJ.test(cnpj)) {
             throw new Error("CNPJ inválido");
-          }
+        }
 
         return "Empresa Cadastrada" 
     }
@@ -30,4 +29,4 @@ class Empresa extends Usuario{
 }
 
 
-module.exports = { Empresa }
+    module.exports =  Empresa 

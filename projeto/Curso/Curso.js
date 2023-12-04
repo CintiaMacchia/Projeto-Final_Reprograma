@@ -4,8 +4,8 @@ const Empresa = require("../Usuario/Empresa/Empresa")
 
 class Curso {
     nomeCurso;
-    cargaHoraria; //passar para privado
-    qtdVagasDisponiveis; //passar para privado
+    cargaHoraria; 
+    qtdVagasDisponiveis;
     static listaCursosCadastrados = []
 
     cadastrarCurso(nomeCurso, cargaHoraria, qtdVagasDisponiveis) {
@@ -13,8 +13,9 @@ class Curso {
       this.cargaHoraria = cargaHoraria;
       this.qtdVagasDisponiveis = qtdVagasDisponiveis;
       this.professoresDoCurso = [];
-      this.empresaPatrocinadora = []
-      this.qtdAlunos = 0
+      this.empresaPatrocinadora = [];
+      this.qtdAlunos = 0;
+      this.status = "Em planejamento";
 
 
       Curso.listaCursosCadastrados.push(this)
@@ -27,11 +28,15 @@ class Curso {
       return "Curso cadastrado com sucesso."
     }
 
-    apagarListaDeCursos(){
+    apagarCurso(){
       let i = Curso.listaCursosCadastrados.indexOf(this);
       Curso.listaCursosCadastrados.splice
       (i, 1)
-  }
+    }
+
+    mudarStatus(novoStatus) {
+      this.status = novoStatus;
+    }
 
     matricularAluno(aluno, nomeCurso) {
       if (!(aluno instanceof Aluno)) throw new Error("Aluno inválido.");
@@ -130,17 +135,4 @@ class Curso {
   module.exports = { Curso };
 
 
-  // const curso1 = new Curso()
-  // curso1.cadastrarCurso("Front-end", 200, 25)
-
-  // // curso1.apagarListaDeCursos()
- 
-  // const professor = new Professor()
-  // professor.cadastrarUsuario("Maria", "13974588585", "maria@email.com", "22245674589", "12546")
-  // console.log(professor)
- 
-  // curso1.adicionarProfessor(professor, "Front-end")
-  // console.log(curso1)
-  // console.log("Lista de cursos ministrados após remoção:", professor.listaDeCursosMinistrados);
-  // curso1.removerProfessor(professor, "Front-end")
-  // console.log("Lista de professores do curso após remoção:", this.professoresDoCurso);
+  
