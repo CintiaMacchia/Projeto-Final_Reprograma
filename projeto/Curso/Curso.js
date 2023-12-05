@@ -64,12 +64,12 @@ class Curso {
   }
 
   calcularFaltas(aluno, totalFaltas) {
-    const limiteFaltas = this.cargaHoraria * 0.75;
+    const limiteFaltas = this.cargaHoraria * 0.25;
 
     const totalFaltasDoAluno =
       totalFaltas > limiteFaltas
-        ? `O total de faltas do(a) ${aluno.nome} excede 75% do total de horas do curso).`
-        : `O total de faltas do(a) ${aluno.nome} não excede 75% do total de horas do curso).`;
+        ? `O total de faltas do(a) ${aluno.nome} excede 75% do total de horas do curso.`
+        : `O total de faltas do(a) ${aluno.nome} não excede 75% do total de horas do curso.`;
 
     return totalFaltasDoAluno;
   }
