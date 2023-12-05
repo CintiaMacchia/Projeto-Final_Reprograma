@@ -1,4 +1,4 @@
-const { Curso }= require("./Curso")
+const Curso = require("./Curso")
 const Aluno = require("../Usuario/Aluno/Aluno")
 const Professor = require("../Usuario/Professor/Professor")
 const Empresa = require("../Usuario/Empresa/Empresa")

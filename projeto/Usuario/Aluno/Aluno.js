@@ -1,4 +1,4 @@
-const { Usuario }  = require("../Usuario")
+const  Usuario  = require("../Usuario")
 
 class Aluno extends Usuario {
     #cpf;

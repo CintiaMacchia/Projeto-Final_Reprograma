@@ -132,7 +132,7 @@ class Curso {
   
   }
   
-  module.exports = { Curso };
+  module.exports = Curso ;
 
 
   

@@ -1,5 +1,4 @@
-const { Usuario } = require("../Usuario")
-// const { Curso } = require("../../Curso/Curso")
+const  Usuario  = require("../Usuario")
 
 class Empresa extends Usuario{
     #cnpj
