@@ -1,7 +1,10 @@
 
 
 
-<img src = "https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/7516d211-803b-4729-9332-02456e1e708e" alt="WomenTech40+" width="50%" align = "center"/>
+<h1 align="center">
+ <img width="300" alt="logo40mais" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/4ebce7bd-67cf-49a8-ab5d-6920bb0919b9">
+</h1>
+
 	
 
 
