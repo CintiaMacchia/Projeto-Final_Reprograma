@@ -6,6 +6,8 @@
 ### Equipe:
 - [Verônica Paranhos](https://github.com/veronicaparanhos)
 - [Cintia Macchia](https://github.com/CintiaMacchia)
+</br>
+<h1 align="center"> Projeto Final - WomenTech 40+ </h1>
 
 ### Problema:
 Diante de desafios marcantes, a presença de lacunas de gênero e o impacto do etarismo feminino no setor tecnológico são questões cruciais a serem abordadas. </br>
@@ -34,7 +36,9 @@ Essas iniciativas não apenas fornecem conhecimento técnico, mas também promov
 
 ### Relação com a Agenda ODS 2030:
 
-![ods](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/47a93b22-fddd-423e-b3b7-69e42d4a7bdd)
+<img width="700" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/47a93b22-fddd-423e-b3b7-69e42d4a7bdd" />
+</br>
+</br>
 
 Nosso projeto busca solucionar desafios prementes relacionados à lacuna de gênero e ao etarismo feminino na esfera tecnológica. Ao alinhar nossos objetivos com os princípios dos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, visamos não apenas endereçar problemas locais, mas também contribuir para um impacto global mais amplo.
 
@@ -59,12 +63,7 @@ A implementação de um sistema baseado em código permitirá o desenvolvimento 
 Além disso, a integração de ferramentas de mentoramento virtual e networking facilitará a criação de uma comunidade online de apoio, conectando as participantes a profissionais experientes no campo. Essa rede virtual não apenas oferecerá orientação, mas também abrirá portas para oportunidades de mentoria e colaboração.<br> 
 A resolução com código não apenas endereça os obstáculos mencionados, mas representa um passo significativo em direção à construção de um ecossistema tecnológico inclusivo. Ao capacitar mulheres com mais de 40 anos com habilidades tecnológicas, estamos não apenas superando desafios profissionais, mas também contribuindo para a criação de um ambiente mais diversificado e enriquecedor no setor tecnológico. 
 
-<h1 align="center"> UML </h1>
-
-<img src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/c39a106e-89ff-4776-b0c5-b097d7872c7a"/>
-
-
-<h2>Como rodar esse projeto localmente:</h2>
+<h2 align="center">Como rodar esse projeto localmente:</h2>
 
 #### Clone o projeto:
 
@@ -75,20 +74,25 @@ A resolução com código não apenas endereça os obstáculos mencionados, mas 
 - cd Projeto-Final_Reprograma
 
 #### Instale as dependências:
-
-- npm install
-
+```
+ npm install
+```
 <h2> Testes</h2>
 
-Para realização dos testes nesse projeto, utilizamos framework Jest. Fizemos a cobertura total das classes e métodos.
+Para realização dos testes nesse projeto, utilizamos framework Jest. </br>
+Fizemos a cobertura total das classes e métodos.
 
 #### Rodando o teste
-
-- npm run test
-
+```
+npm run test
+```
 
 <div>
- <h1 align="center"> Implementações do Código </h1>
+ <h2 align="center"> Implementações do código </h2>
+
+ ## UML
+
+<img width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/c39a106e-89ff-4776-b0c5-b097d7872c7a"/>
 
 ## Classes
 
@@ -163,9 +167,10 @@ Para realização dos testes nesse projeto, utilizamos framework Jest. Fizemos a
 | `mudarStatus()`                             | Altera o status do curso                                                       |
 
 </div>
-
+</br>
 <div>
-<h2>Tecnologias Utilizadas: </h2>
+	
+## Tecnologias Utilizadas:
 	
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="36" height="36" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NODEJS" width="36" height="36"/>
@@ -175,11 +180,15 @@ Para realização dos testes nesse projeto, utilizamos framework Jest. Fizemos a
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="FIGMA" width="36" height="36"/>
 
 </div>
+</br>
 
-### Implementações Futuras: 
+## Implementações Futuras: 
 À medida que avançamos com determinação em nosso projeto, vislumbramos implementações futuras que ampliarão significativamente o impacto e a sustentabilidade de nossas iniciativas. </br>
 Estamos planejando estabelecer uma prática inovadora, solicitando que empresas que patrocinem cursos ofereçam, ao final do programa, uma porcentagem das vagas totais para serem preenchidas por nossas talentosas alunas. Essa medida não apenas reforça nosso compromisso com a transição efetiva para o mercado de trabalho, mas também estabelece uma ponte direta entre a formação oferecida e as oportunidades reais de emprego.</br>
 Além disso, pretendemos criar um Banco de Talentos robusto, onde as alunas terão a oportunidade de registrar seus currículos e portfólios. Esse banco não apenas servirá como uma vitrine valiosa de habilidades, mas também permitirá que as empresas busquem candidatas com base em perfis específicos. <br>
 Faremos parcerias estratégicas para oferecer às empresas a oportunidade de anunciarem vagas diretamente em nossa plataforma, alinhadas exclusivamente aos talentos e competências das participantes. Essa colaboração visa não apenas facilitar a conexão entre talentos e oportunidades, mas também promover uma transição mais suave e eficiente para o mercado de trabalho tecnológico. Ao estabelecermos essas parcerias, criaremos um ambiente dinâmico em que as empresas podem encontrar profissionais qualificadas, e as alunas, por sua vez, terão acesso a oportunidades de emprego específicas para seu perfil.<br>
 
-
+### Banco de dados:
+<h1 align="center" > 
+ <img alt="logo40mais" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/dea73677-04bf-411a-bb26-b9386dc95428">
+</h1>
