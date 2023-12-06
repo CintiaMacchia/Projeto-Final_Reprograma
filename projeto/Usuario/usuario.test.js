@@ -14,7 +14,7 @@ describe("Teste da Classe Usuário", ()=>{
     })
 
     test("Cadastrar Usuário com dados Válidos", ()=>{
-        expect(usuario.cadastrarUsuario("Maria", "13987689945", "maria@email.com")).toBe("Usuário Cadastrado")
+        expect(usuario.cadastrarUsuario("Mariana", "13987689945", "maria@email.com")).toBe("Usuário Cadastrado")
     })
 
     test("Retorna Erro ao tentar cadastrar usuário com telefone inválido", ()=> {
