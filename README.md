@@ -64,7 +64,7 @@ A resolução com código não apenas endereça os obstáculos mencionados, mas 
 
 <img src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/c39a106e-89ff-4776-b0c5-b097d7872c7a"/>
 
-<div>
+
 <h2>Como rodar esse projeto localmente:</h2>
 #### Clone o projeto:
  - git clone https://github.com/CintiaMacchia/Projeto-Final_Reprograma
@@ -72,7 +72,7 @@ A resolução com código não apenas endereça os obstáculos mencionados, mas 
 - cd Projeto-Final_Reprograma
 #### Instale as dependências:
 - npm install
-</div>
+
 
 <div>
  <h1 align="center"> Implementações do Código </h1>
