@@ -60,12 +60,9 @@ A implementação de um sistema baseado em código permitirá o desenvolvimento 
 Além disso, a integração de ferramentas de mentoramento virtual e networking facilitará a criação de uma comunidade online de apoio, conectando as participantes a profissionais experientes no campo. Essa rede virtual não apenas oferecerá orientação, mas também abrirá portas para oportunidades de mentoria e colaboração.<br> 
 A resolução com código não apenas endereça os obstáculos mencionados, mas representa um passo significativo em direção à construção de um ecossistema tecnológico inclusivo. Ao capacitar mulheres com mais de 40 anos com habilidades tecnológicas, estamos não apenas superando desafios profissionais, mas também contribuindo para a criação de um ambiente mais diversificado e enriquecedor no setor tecnológico. 
 
+<h1 align="center"> UML </h1>
 
-<div>
-	 <h1 align="center"> UML </h1>
-
-	<img src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/c39a106e-89ff-4776-b0c5-b097d7872c7a"/>
-</div>
+<img src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/c39a106e-89ff-4776-b0c5-b097d7872c7a"/>
 
 
 <div>
