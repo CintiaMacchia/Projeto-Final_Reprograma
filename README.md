@@ -192,7 +192,7 @@ Faremos parcerias estratégicas para oferecer às empresas a oportunidade de anu
 ### Banco de dados:
 </br>
 <div align="center" > 
- <img alt="esquema de banco de dados" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/dea73677-04bf-411a-bb26-b9386dc95428">
+ <img alt="esquema de banco de dados" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/7cac3610-666a-48d1-bc92-3cd9fe5b630d">
 </div>
 
 ### Layout do site:
@@ -201,5 +201,5 @@ Faremos parcerias estratégicas para oferecer às empresas a oportunidade de anu
  <img alt="layout do site" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/37e027da-55bd-4b40-abec-8ec784ace3a4">
 </div>
 
-![Link para o Figma](https://www.figma.com/file/GofzCUN7CkWUN4PAzN2UWb/WomenTech40%2B?type=design&node-id=158%3A677&mode=design&t=oNuHeRgqcl7FxKU6-1)
+[Link para o Figma](https://www.figma.com/file/GofzCUN7CkWUN4PAzN2UWb/WomenTech40%2B?type=design&node-id=0%3A1&mode=design&t=Q8r989sS7Pd6YUZo-1)
 
