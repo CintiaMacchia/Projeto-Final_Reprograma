@@ -79,9 +79,8 @@ A resolução com código não apenas endereça os obstáculos mencionados, mas 
 
 - npm install
 
-#### Como rodar os testes:
+<h2> Testes</h2>
 
-- npm run test
 
 
 <div>
