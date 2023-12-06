@@ -63,26 +63,26 @@ A implementação de um sistema baseado em código permitirá o desenvolvimento 
 Além disso, a integração de ferramentas de mentoramento virtual e networking facilitará a criação de uma comunidade online de apoio, conectando as participantes a profissionais experientes no campo. Essa rede virtual não apenas oferecerá orientação, mas também abrirá portas para oportunidades de mentoria e colaboração.<br> 
 A resolução com código não apenas endereça os obstáculos mencionados, mas representa um passo significativo em direção à construção de um ecossistema tecnológico inclusivo. Ao capacitar mulheres com mais de 40 anos com habilidades tecnológicas, estamos não apenas superando desafios profissionais, mas também contribuindo para a criação de um ambiente mais diversificado e enriquecedor no setor tecnológico. 
 
-<h2 align="center">Como rodar esse projeto localmente:</h2>
+<h2 align="center">Como rodar esse projeto localmente</h2>
 
 #### Clone o projeto:
-
- - git clone: https://github.com/CintiaMacchia/Projeto-Final_Reprograma
-
+```
+git clone https://github.com/CintiaMacchia/Projeto-Final_Reprograma
+```
 #### Entre no diretório do projeto:
-
-- cd Projeto-Final_Reprograma
-
+```
+cd Projeto-Final_Reprograma
+```
 #### Instale as dependências:
 ```
  npm install
 ```
-<h2> Testes</h2>
+### Testes
 
 Para realização dos testes nesse projeto, utilizamos framework Jest. </br>
 Fizemos a cobertura total das classes e métodos.
 
-#### Rodando o teste
+#### Para rodar o teste, use:
 ```
 npm run test
 ```
@@ -187,8 +187,19 @@ npm run test
 Estamos planejando estabelecer uma prática inovadora, solicitando que empresas que patrocinem cursos ofereçam, ao final do programa, uma porcentagem das vagas totais para serem preenchidas por nossas talentosas alunas. Essa medida não apenas reforça nosso compromisso com a transição efetiva para o mercado de trabalho, mas também estabelece uma ponte direta entre a formação oferecida e as oportunidades reais de emprego.</br>
 Além disso, pretendemos criar um Banco de Talentos robusto, onde as alunas terão a oportunidade de registrar seus currículos e portfólios. Esse banco não apenas servirá como uma vitrine valiosa de habilidades, mas também permitirá que as empresas busquem candidatas com base em perfis específicos. <br>
 Faremos parcerias estratégicas para oferecer às empresas a oportunidade de anunciarem vagas diretamente em nossa plataforma, alinhadas exclusivamente aos talentos e competências das participantes. Essa colaboração visa não apenas facilitar a conexão entre talentos e oportunidades, mas também promover uma transição mais suave e eficiente para o mercado de trabalho tecnológico. Ao estabelecermos essas parcerias, criaremos um ambiente dinâmico em que as empresas podem encontrar profissionais qualificadas, e as alunas, por sua vez, terão acesso a oportunidades de emprego específicas para seu perfil.<br>
+</br>
 
 ### Banco de dados:
-<h1 align="center" > 
- <img alt="logo40mais" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/dea73677-04bf-411a-bb26-b9386dc95428">
-</h1>
+</br>
+<div align="center" > 
+ <img alt="esquema de banco de dados" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/dea73677-04bf-411a-bb26-b9386dc95428">
+</div>
+
+### Layout do site:
+</br>
+<div align="center" > 
+ <img alt="layout do site" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/37e027da-55bd-4b40-abec-8ec784ace3a4">
+</div>
+
+![Link para o Figma](https://www.figma.com/file/GofzCUN7CkWUN4PAzN2UWb/WomenTech40%2B?type=design&node-id=158%3A677&mode=design&t=oNuHeRgqcl7FxKU6-1)
+
