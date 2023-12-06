@@ -63,6 +63,7 @@ A implementação de um sistema baseado em código permitirá o desenvolvimento 
 Além disso, a integração de ferramentas de mentoramento virtual e networking facilitará a criação de uma comunidade online de apoio, conectando as participantes a profissionais experientes no campo. Essa rede virtual não apenas oferecerá orientação, mas também abrirá portas para oportunidades de mentoria e colaboração.<br> 
 A resolução com código não apenas endereça os obstáculos mencionados, mas representa um passo significativo em direção à construção de um ecossistema tecnológico inclusivo. Ao capacitar mulheres com mais de 40 anos com habilidades tecnológicas, estamos não apenas superando desafios profissionais, mas também contribuindo para a criação de um ambiente mais diversificado e enriquecedor no setor tecnológico. 
 
+</br>
 <h2 align="center">Como rodar esse projeto localmente</h2>
 
 #### Clone o projeto:
@@ -86,7 +87,7 @@ Fizemos a cobertura total das classes e métodos.
 ```
 npm run test
 ```
-
+</br>
 <div>
  <h2 align="center"> Implementações do código </h2>
 
@@ -182,7 +183,7 @@ npm run test
 </div>
 </br>
 
- <h2 align="center"> Implementações futuras: </h2>
+ <h2 align="center"> Implementações futuras </h2>
  
 À medida que avançamos com determinação em nosso projeto, vislumbramos implementações futuras que ampliarão significativamente o impacto e a sustentabilidade de nossas iniciativas. </br>
 Estamos planejando estabelecer uma prática inovadora, solicitando que empresas que patrocinem cursos ofereçam, ao final do programa, uma porcentagem das vagas totais para serem preenchidas por nossas talentosas alunas. Essa medida não apenas reforça nosso compromisso com a transição efetiva para o mercado de trabalho, mas também estabelece uma ponte direta entre a formação oferecida e as oportunidades reais de emprego.</br>
