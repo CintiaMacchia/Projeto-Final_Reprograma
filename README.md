@@ -67,10 +67,15 @@ A resolução com código não apenas endereça os obstáculos mencionados, mas 
 
 <h2>Como rodar esse projeto localmente:</h2>
 #### Clone o projeto:
+
  - git clone https://github.com/CintiaMacchia/Projeto-Final_Reprograma
+ - 
 #### Entre no diretório do projeto:
+
 - cd Projeto-Final_Reprograma
+- 
 #### Instale as dependências:
+
 - npm install
 
 
