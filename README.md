@@ -61,6 +61,10 @@ Além disso, a integração de ferramentas de mentoramento virtual e networking 
 A resolução com código não apenas endereça os obstáculos mencionados, mas representa um passo significativo em direção à construção de um ecossistema tecnológico inclusivo. Ao capacitar mulheres com mais de 40 anos com habilidades tecnológicas, estamos não apenas superando desafios profissionais, mas também contribuindo para a criação de um ambiente mais diversificado e enriquecedor no setor tecnológico. 
 
 <div>
+### UML
+	![image](https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/89550095/60b1d4a8-64f8-495a-bfb1-b711b0f70582)
+</div>
+<div>
  <h1 align="center"> Implementações do Código </h1>
 
 ## Classes
