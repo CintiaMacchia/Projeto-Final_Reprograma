@@ -80,7 +80,9 @@ A resolução com código não apenas endereça os obstáculos mencionados, mas 
 - npm install
 
 <h2> Testes</h2>
-Para realização dos testes nesse projeto, utilizamos framework Jest. Fizemos a cobertura total das classes e métodos.<br>
+
+Para realização dos testes nesse projeto, utilizamos framework Jest. Fizemos a cobertura total das classes e métodos.
+
 #### Rodando o teste
 
 - npm run test
