@@ -182,7 +182,8 @@ npm run test
 </div>
 </br>
 
-## Implementações Futuras: 
+ <h2 align="center"> Implementações futuras: </h2>
+ 
 À medida que avançamos com determinação em nosso projeto, vislumbramos implementações futuras que ampliarão significativamente o impacto e a sustentabilidade de nossas iniciativas. </br>
 Estamos planejando estabelecer uma prática inovadora, solicitando que empresas que patrocinem cursos ofereçam, ao final do programa, uma porcentagem das vagas totais para serem preenchidas por nossas talentosas alunas. Essa medida não apenas reforça nosso compromisso com a transição efetiva para o mercado de trabalho, mas também estabelece uma ponte direta entre a formação oferecida e as oportunidades reais de emprego.</br>
 Além disso, pretendemos criar um Banco de Talentos robusto, onde as alunas terão a oportunidade de registrar seus currículos e portfólios. Esse banco não apenas servirá como uma vitrine valiosa de habilidades, mas também permitirá que as empresas busquem candidatas com base em perfis específicos. <br>
@@ -192,14 +193,14 @@ Faremos parcerias estratégicas para oferecer às empresas a oportunidade de anu
 ### Banco de dados:
 </br>
 <div align="center" > 
- <img alt="esquema de banco de dados" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/7cac3610-666a-48d1-bc92-3cd9fe5b630d">
+ <img alt="esquema de banco de dados" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/13b754a2-e76f-4817-8f9c-71c0cf1078a9" />
 </div>
 
 ### Layout do site:
 </br>
 <div align="center" > 
- <img alt="layout do site" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/37e027da-55bd-4b40-abec-8ec784ace3a4">
+ <img alt="layout do site" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/7cac3610-666a-48d1-bc92-3cd9fe5b630d" />
 </div>
 
-[Link para o Figma](https://www.figma.com/file/GofzCUN7CkWUN4PAzN2UWb/WomenTech40%2B?type=design&node-id=0%3A1&mode=design&t=Q8r989sS7Pd6YUZo-1)
+[Link para projeto no Figma](https://www.figma.com/file/GofzCUN7CkWUN4PAzN2UWb/WomenTech40%2B?type=design&node-id=0%3A1&mode=design&t=Q8r989sS7Pd6YUZo-1)
 
