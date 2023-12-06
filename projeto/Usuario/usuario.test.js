@@ -1,5 +1,5 @@
 
-const { Usuario } = require("./Usuario")
+const  Usuario  = require("./Usuario")
 
 
 describe("Teste da Classe Usuário", ()=>{
