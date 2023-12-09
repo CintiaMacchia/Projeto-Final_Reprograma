@@ -203,5 +203,5 @@ Faremos parcerias estratégicas para oferecer às empresas a oportunidade de anu
  <img alt="layout do site" width="1000" src="https://github.com/CintiaMacchia/Projeto-Final_Reprograma/assets/45604519/7cac3610-666a-48d1-bc92-3cd9fe5b630d" />
 </div>
 
-[Link para projeto no Figma](https://www.figma.com/file/GofzCUN7CkWUN4PAzN2UWb/WomenTech40%2B?type=design&node-id=0%3A1&mode=design&t=Q8r989sS7Pd6YUZo-1)
-
+[Link para projeto no Figma](https://www.figma.com/file/GofzCUN7CkWUN4PAzN2UWb/WomenTech40%2B?type=design&node-id=0%3A1&mode=design&t=Q8r989sS7Pd6YUZo-1) </br>
+[Link para Apresentação](https://docs.google.com/presentation/d/1rKlYP91VGA_H71pJRKgABEY-clgGmUD1/edit?usp=sharing&ouid=105008482837782301788&rtpof=true&sd=true)
